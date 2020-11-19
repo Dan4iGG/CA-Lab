@@ -1,0 +1,9 @@
+module srl
+(
+	input  [31:0] rt, shamt, in1
+);
+
+	always@(*) begin
+		in1 = rt >> shamt;
+	end
+endmodule
