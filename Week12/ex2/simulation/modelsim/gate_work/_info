@@ -1,0 +1,186 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/doni3/OneDrive/Desktop/ICT/CA labs/Week12/ex2/simulation/modelsim
+vadd
+Z1 !s110 1605809332
+!i10b 1
+!s100 5z1a>KQnd0:@RgNlIBSNm0
+IIn>Rn]1jFbidWcN[gz<_m0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1605795585
+8C:/Users/doni3/OneDrive/Desktop/ICT/CA labs/Week12/ex2/add.v
+FC:/Users/doni3/OneDrive/Desktop/ICT/CA labs/Week12/ex2/add.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1605809332.000000
+!s107 C:/Users/doni3/OneDrive/Desktop/ICT/CA labs/Week12/ex2/add.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/doni3/OneDrive/Desktop/ICT/CA labs/Week12/ex2|C:/Users/doni3/OneDrive/Desktop/ICT/CA labs/Week12/ex2/add.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+C:/Users/doni3/OneDrive/Desktop/ICT/CA labs/Week12/ex2}
+Z7 tCvgOpt 0
+vex1
+Z8 !s110 1605809330
+!i10b 1
+!s100 Tbc<7D:zWE;n0KfbCog1E1
+IjORKgHVlGOzeMBjR2Q2NN3
+R2
+R0
+w1605809255
+8C:/Users/doni3/OneDrive/Desktop/ICT/CA labs/Week12/ex2/ex1.v
+FC:/Users/doni3/OneDrive/Desktop/ICT/CA labs/Week12/ex2/ex1.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z9 !s108 1605809330.000000
+!s107 C:/Users/doni3/OneDrive/Desktop/ICT/CA labs/Week12/ex2/ex1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/doni3/OneDrive/Desktop/ICT/CA labs/Week12/ex2|C:/Users/doni3/OneDrive/Desktop/ICT/CA labs/Week12/ex2/ex1.v|
+!i113 1
+R5
+R6
+R7
+vglob
+R1
+!i10b 1
+!s100 b0ABYh7ijRe29?XHF8:fE2
+I@L53Hd1@Hh_cY`_JbHz@h0
+R2
+R0
+w1605769896
+8C:/Users/doni3/OneDrive/Desktop/ICT/CA labs/Week12/ex2/glob.v
+FC:/Users/doni3/OneDrive/Desktop/ICT/CA labs/Week12/ex2/glob.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/doni3/OneDrive/Desktop/ICT/CA labs/Week12/ex2/glob.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/doni3/OneDrive/Desktop/ICT/CA labs/Week12/ex2|C:/Users/doni3/OneDrive/Desktop/ICT/CA labs/Week12/ex2/glob.v|
+!i113 1
+R5
+R6
+R7
+vhard_block
+R8
+!i10b 1
+!s100 HgEd]1Y:0ZRBlb7M3BL=c1
+IF<58zI`=4l7aZ;eXhebHz0
+R2
+R0
+w1605809310
+8ex1.vo
+Fex1.vo
+L0 7164
+R3
+r1
+!s85 0
+31
+R9
+!s107 ex1.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|ex1.vo|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+.
+R7
+vmux
+Z10 !s110 1605809331
+!i10b 1
+!s100 =>EX[@h5I;RQHmE0L0RR<1
+I=LC6VWaiGFQ[<3fTU]92d3
+R2
+R0
+w1605794628
+8C:/Users/doni3/OneDrive/Desktop/ICT/CA labs/Week12/ex2/mux.v
+FC:/Users/doni3/OneDrive/Desktop/ICT/CA labs/Week12/ex2/mux.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z11 !s108 1605809331.000000
+!s107 C:/Users/doni3/OneDrive/Desktop/ICT/CA labs/Week12/ex2/mux.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/doni3/OneDrive/Desktop/ICT/CA labs/Week12/ex2|C:/Users/doni3/OneDrive/Desktop/ICT/CA labs/Week12/ex2/mux.v|
+!i113 1
+R5
+R6
+R7
+vsrl
+R10
+!i10b 1
+!s100 NMj_V>DYzQ;A5Pe`gI86f0
+Iml0DY=M00BziP_CWCdc121
+R2
+R0
+w1605795694
+8C:/Users/doni3/OneDrive/Desktop/ICT/CA labs/Week12/ex2/srl.v
+FC:/Users/doni3/OneDrive/Desktop/ICT/CA labs/Week12/ex2/srl.v
+L0 1
+R3
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/doni3/OneDrive/Desktop/ICT/CA labs/Week12/ex2/srl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/doni3/OneDrive/Desktop/ICT/CA labs/Week12/ex2|C:/Users/doni3/OneDrive/Desktop/ICT/CA labs/Week12/ex2/srl.v|
+!i113 1
+R5
+R6
+R7
+vsub
+R10
+!i10b 1
+!s100 H8b6WZ8EK6L0LgAKTbmgb2
+INmY5:d02PW[IQ>T5Zzm0]0
+R2
+R0
+w1605795586
+8C:/Users/doni3/OneDrive/Desktop/ICT/CA labs/Week12/ex2/sub.v
+FC:/Users/doni3/OneDrive/Desktop/ICT/CA labs/Week12/ex2/sub.v
+L0 1
+R3
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/doni3/OneDrive/Desktop/ICT/CA labs/Week12/ex2/sub.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/doni3/OneDrive/Desktop/ICT/CA labs/Week12/ex2|C:/Users/doni3/OneDrive/Desktop/ICT/CA labs/Week12/ex2/sub.v|
+!i113 1
+R5
+R6
+R7
+vtestbench
+R10
+!i10b 1
+!s100 XNXzHf0P8BAQScA2YTZY[3
+IIYffIYZ<V8^3oFRSTI7ag1
+R2
+R0
+w1605798979
+8C:/Users/doni3/OneDrive/Desktop/ICT/CA labs/Week12/ex2/testbench.v
+FC:/Users/doni3/OneDrive/Desktop/ICT/CA labs/Week12/ex2/testbench.v
+L0 1
+R3
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/doni3/OneDrive/Desktop/ICT/CA labs/Week12/ex2/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/doni3/OneDrive/Desktop/ICT/CA labs/Week12/ex2|C:/Users/doni3/OneDrive/Desktop/ICT/CA labs/Week12/ex2/testbench.v|
+!i113 1
+R5
+R6
+R7
