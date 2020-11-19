@@ -1,0 +1,21 @@
+
+module testbench ;
+	reg s, r;
+	wire q, q_n;
+	sr_ latch sr_ latch (s, r, q, q_n) ;
+	initial $ dumpvars ;
+	initial
+	begin
+	$ monitor ("% 0 d s % b r % b q % b q _ n % b " , $ time , s , r , q , q _ n ) ;
+		# 10; s = 0; r = 0;
+		# 10; s = 1; r = 0;
+		# 10; s = 0; r = 0;
+		# 10; s = 0; r = 1;
+		# 10; s = 0; r = 0;
+		# 10; s = 1; r = 1;
+		# 10; s = 0; r = 0;
+		# 10; s = 0; r = 0;
+		# 10;
+		$ finish ;
+	end
+endmodule

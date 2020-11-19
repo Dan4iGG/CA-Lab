@@ -1,0 +1,65 @@
+.data 
+	mes: .asciiz "Enter n: "
+	outmes: .asciiz "Sum from 1 to n is: "
+	Num: .word 0
+	Ans: .word 0
+.text
+	.globl main
+	main:
+		#read the number
+		li $v0, 4
+		la $a0, mes
+		syscall
+		
+		li $v0, 5
+		syscall
+		
+		sw $v0, Num
+		
+		# call the func
+		lw $a0, Num
+		jal FindNsum
+		sw $v0, Ans
+		
+		# display result
+		li $v0, 4
+		la $a0, outmes
+		syscall
+		
+		li $v0, 1
+		lw $a0, Ans
+		syscall
+		
+		#tell the end prog
+		li $v0, 10
+		syscall
+		
+#-----------------------------------------
+#find N sum
+.globl FindNsum
+FindNsum:
+	subu $sp, $sp, 8
+	sw $ra, ($sp)
+	sw $s0, 4($sp)
+	
+	#Base Case
+	li $v0, 1
+	beq $a0, 1, funcDone
+	
+	move $s0, $a0
+	sub $a0, $a0, 1
+	jal FindNsum
+	
+	#work
+	add $v0, $s0, $v0
+	
+	funcDone:
+		lw $ra, ($sp)
+		lw $s0, 4($sp)
+		addu $sp, $sp, 8
+
+<<<<<<< HEAD
+		jr $ra
+=======
+		jr $ra
+>>>>>>> 4dcf63ba51e4d922f9c1cc83d9d3efef3a8f546f
